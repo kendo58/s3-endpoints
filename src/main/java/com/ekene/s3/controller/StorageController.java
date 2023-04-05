@@ -1,7 +1,8 @@
-package com.javatechie.s3.controller;
+package com.ekene.s3.controller;
 
 
-import com.javatechie.s3.service.StorageService;
+import com.ekene.s3.service.StorageService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ByteArrayResource;
 import org.springframework.http.HttpStatus;

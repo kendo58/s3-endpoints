@@ -1,4 +1,4 @@
-package com.javatechie.s3.service;
+package com.ekene.s3.service;
 
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.model.PutObjectRequest;
@@ -58,7 +58,8 @@ public class StorageService {
         try (FileOutputStream fos = new FileOutputStream(convertedFile)) {
             fos.write(file.getBytes());
         } catch (IOException e) {
-            log.error("Error converting multipartFile to file", e);
+            e.printStackTrace();
+            
         }
         return convertedFile;
     }
