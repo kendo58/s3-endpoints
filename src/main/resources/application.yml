@@ -1,8 +1,8 @@
 cloud:
   aws:
     credentials:
-      access-key: AKIATJTIH3FC5B4K6A6T
-      secret-key: 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
+      access-key: 
+      secret-key: 
     region:
       static: us-east-1
     stack:
@@ -10,7 +10,7 @@ cloud:
 
 application:
   bucket:
-    name: acbucket487384783
+    name:
 
 
 spring:
